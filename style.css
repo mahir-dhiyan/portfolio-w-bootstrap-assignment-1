@@ -1,0 +1,23 @@
+*{
+    background: black;
+    color: white;
+}
+.nav-icon{
+    width: 68px;
+    
+}
+
+/* .nav-body{
+    margin-left: 400px;
+} */
+/* .nav-main{
+    
+} */
+ .img-width{
+   max-width: 350px; /* or any width you prefer */
+  width: 100%;
+  height: auto;
+ }
+
+
+ 

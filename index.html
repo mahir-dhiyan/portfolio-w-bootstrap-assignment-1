@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="globals.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <!-- <script src="https://kit.fontawesome.com/3410f06e59.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+  <header>
+    <!-- Navbar -->
+    <!-- -------------------------- -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid nav-main d-flex justify-content-between align-items-center">
+        <a class="navbar-brand" href="#">
+          <img class="nav-icon" src="icons/logo.png" alt="" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse nav-body" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+            <a class="nav-link text-light" href="#">Features</a>
+            <a class="nav-link text-light" href="#">Pricing</a>
+            <button class="btn btn-info text-white fw-bold ms-2">Resume
+              <i style="background-color: rgba(13,202,240,255)" class="fa-duotone fa-solid fa-cloud-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="mx-auto p-2">
+    <!-- banner -->
+
+    <section class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="banner-txt text-info fw-bold">
+            <h1>HI !</h1>
+            <h1>I'M GIAS UDDIN</h1>
+          </div>
+          <div>
+            <h4 class="text-white">Web Developer || React Developer || Programmer</h4>
+            <br>
+            <p class="text-white">
+              I am an enthusiastic JavaScript developer with knowing some
+              framework for the frontend and the backend. I know Basic PHP and
+              MySQL but basically a MERN developer.
+            </p>
+          </div>
+          <div class="mt-4 d-flex align-items-center gap-3">
+            <a href="#" class="text-info fs-3" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" class="text-info fs-3" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-info fs-3" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="btn btn-info text-white fw-bold ms-2" style="min-width: 100px;" target="_blank">
+              Resume
+              <i style="background-color: rgba(13,202,240,255)" class="fa-duotone fa-solid fa-cloud-arrow-down"></i>
+            </a>
+
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img class="img-fluid rounded img-width" src="images/gias.jpg" alt="Gias Uddin" />
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio part -->
+    <section class="portfolio-section py-5">
+      <div class="container">
+        <h2 class="text-center fw-bold mb-5 text-white">Portfolio</h2>
+
+        <!-- Portfolio Item 1 -->
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-10">
+            <div class="card bg-dark text-white portfolio-card">
+              <div class="row g-0 align-items-center">
+                <!-- carouisal -->
+                <div class="col-md-5">
+                  <div id="carouselExampleAutoplaying1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="projects-img/travel-guru-map.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Text Content -->
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title text-info fw-bold">
+                      Urban Riders
+                      <span class="ml-3"><a href=""><i style="color: rgba(13,202,240,255);"
+                            class="fa-brands fa-staylinked ml-3"></i></a></span>
+                      <span class="ml-3"><a href=""><i style="color: rgba(13,202,240,255);"
+                            class="fa-brands fa-codepen ml-3"></i></a></span>
+                    </h5>
+                    <p class="card-text small">
+                      Urban Riders is an online ride sharing platform. Users can sign in with Google, Facebook, or
+                      create a new account to access all features. After logging in, users can choose their preferred
+                      vehicle and set their pick-up and destination points using an interactive map.<br>
+                      Users can also see their current location on the map. Firebase authentication is used for secure
+                      sign-in and account management.<br>
+                      The platform supports account creation and login via Google, Facebook, and Github for a seamless
+                      experience.
+                    </p>
+                    </p>
+                    <div class="mb-2">
+                      <span class="badge bg-secondary">React</span>
+                      <span class="badge bg-secondary">Firebase</span>
+                      <span class="badge bg-secondary">HTML</span>
+                      <span class="badge bg-secondary">CSS</span>
+                      <span class="badge bg-secondary">NODE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-10">
+            <div class="card bg-dark text-white portfolio-card">
+              <div class="row g-0 align-items-center">
+                <!-- Carousel  -->
+                <div class="col-md-5">
+                  <div id="carouselExampleAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="projects-img/travel-guru-map.png" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="projects-img/Travel-Search.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Text  -->
+                <div class="col-md-7">
+                  <div class="card-body">
+                    <h5 class="card-title text-info fw-bold">
+                      Online University
+                      <span class="ml-3"><a href=""><i style="color: rgba(13,202,240,255);"
+                            class="fa-brands fa-staylinked ml-3"></i></a></span>
+                      <span class="ml-3"><a href=""><i style="color: rgba(13,202,240,255);"
+                            class="fa-brands fa-codepen ml-3"></i></a></span>
+                    </h5>
+                    <p class="card-text small">
+                      This is Travel service Agency website. User can login via Facebook sign-in, Google Sign-in and
+                      also can create a new account for use the services. User can choose the service as he/she
+                      want.<br><br>
+                      User can choose the perfect vehicle as he/she want.<br>
+                      User also can see his/her current location. Firebase authentication used in this website.<br>
+                      User can login via (Google, Facebook, Github) also can create account.
+                    </p>
+                    <div class="mb-2">
+                      <span class="badge bg-secondary">React</span>
+                      <span class="badge bg-secondary">Firebase</span>
+                      <span class="badge bg-secondary">HTML</span>
+                      <span class="badge bg-secondary">CSS</span>
+                      <span class="badge bg-secondary">NODE</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Skills  -->
+          <div class="col-lg-7 mb-4 mb-lg-0">
+            <div class="mb-4">
+              <span class="h5 text-white">Expertise:</span>
+              <div class="mt-2">
+                <span class="badge bg-secondary mb-1">React.js</span>
+                <span class="badge bg-secondary mb-1">Javascript</span>
+                <span class="badge bg-secondary mb-1">node.js</span>
+                <span class="badge bg-secondary mb-1">Firebase</span>
+                <span class="badge bg-secondary mb-1">Express.js</span>
+                <span class="badge bg-secondary mb-1">HTML</span>
+                <span class="badge bg-secondary mb-1">Bootstrap</span>
+                <span class="badge bg-secondary mb-1">MongoDB</span>
+              </div>
+            </div>
+            <div class="mb-4">
+              <span class="h5 text-white">Comfortable:</span>
+              <div class="mt-2">
+                <span class="badge bg-secondary mb-1">SQL</span>
+                <span class="badge bg-secondary mb-1">Redux</span>
+                <span class="badge bg-secondary mb-1">Socket.io</span>
+                <span class="badge bg-secondary mb-1">AWS</span>
+                <span class="badge bg-secondary mb-1">Docker</span>
+                <span class="badge bg-secondary mb-1">TypeScript</span>
+                <span class="badge bg-secondary mb-1">Next.js</span>
+              </div>
+            </div>
+            <div class="mb-4">
+              <span class="h5 text-white">Familiar:</span>
+              <div class="mt-2">
+                <span class="badge bg-secondary mb-1">C++</span>
+                <span class="badge bg-secondary mb-1">python</span>
+                <span class="badge bg-secondary mb-1">Spring Boot</span>
+                <span class="badge bg-secondary mb-1">Networking</span>
+              </div>
+            </div>
+            <div>
+              <span class="h5 text-white">Tools:</span>
+              <div class="mt-2">
+                <span class="badge bg-secondary mb-1">VS CODE</span>
+                <span class="badge bg-secondary mb-1">JIRA</span>
+                <span class="badge bg-secondary mb-1">Trello</span>
+                <span class="badge bg-secondary mb-1">Git</span>
+                <span class="badge bg-secondary mb-1">Git</span>
+              </div>
+            </div>
+          </div>
+          <!-- Education  -->
+          <div class="col-lg-5 d-flex flex-column align-items-lg-start align-items-center justify-content-center">
+            <h2 class="fw-bold text-info mb-1" style="font-size:2.2rem;">My Education</h2>
+            <div class="text-white text-center text-lg-start">
+              <div class="fw-normal" style="font-size:1.1rem;">
+                B.Sc in Software Engineering,<br>
+                Yunnan University (Kunming, Yunnan, China)
+              </div>
+              <div class="mt-2" style="font-size:1rem;">2018-2022</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- form -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center text-white mb-4">Contact with Me</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-5">
+            <div class="p-4"
+              style="background: transparent; border: 1px solid #666; border-radius: 6px; box-shadow: 4px 4px 8px #111;">
+              <form>
+                <div class="mb-3">
+
+                  <input type="text" placeholder="Please Type Your Name"
+                    class="form-control bg-lite text-white border-secondary">
+
+                </div>
+                <div class="mb-3">
+
+                  <input type="email" placeholder="Please Type Your Email"
+                    class="form-control bg-lite text-white border-secondary" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+
+                </div>
+                <div class="mb-3">
+
+                  <input type="text" placeholder="Type Your Message Here"
+                    class="form-control bg-lite text-white border-secondary" id="exampleInputEmail1"
+                    aria-describedby="emailHelp">
+
+                </div>
+
+
+                <button type="submit" class="btn btn-secondary w-100 fw-bold">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+  <hr class="" style="margin: 0%;">
+  <footer class=" text-center py-4">
+    <div class="container">
+      <div class="text-light small mb-1">
+        Copyright © 2021 | gias uddin
+      </div>
+      <div class="text-light mb-2" style="font-size: 0.95rem;">
+        kunming, yunnan, china
+      </div>
+      <div class="d-flex justify-content-center gap-4 mt-2">
+        <a href="#" class="text-info fs-3" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" class="text-info fs-3" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="text-info fs-3" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="bootstrap-5.3.7-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
